@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left.column .column-contents {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left.column .column-contents .instructions {
+    font-size: 45px;
+}
