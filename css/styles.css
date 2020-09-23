@@ -38,8 +38,60 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+.left.column .column-contents .logo-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left.column .column-contents .instructions {
+    text-align: center;
+    color: #1A253D;
+}
+
+.left.column .column-contents .instructions.primary {
     font-size: 45px;
+    font-weight: bold;
+}
+
+.left.column .column-contents .instructions.secondary {
+    font-size: 18px;
+}
+
+a {
+    color: #3590EB;
+}
+
+.left.column .column-contents input {
+    padding: 10px 20px;
+    width: 100%;
+    font-family: inherit;
+}
+.left.column .column-contents .other-options  {
+    width: 100%;
+}
+
+.left.column .column-contents .other-options .buttons  {
+    margin-top: 10px;
+}
+.left.column .column-contents .other-options .buttons button {
+    padding: 10px 20px;
+    width: 30%;
+    border: 1px solid #C6C6C6;
+    outline: none;
+    margin-right: 4%;
+}
+
+.left.column .column-contents .other-options .buttons button:last-child {
+    margin-right: 0;
+}
+.left.column .column-contents .other-options .buttons .login-with-facebook {
+    background: #3B5998;
+}
+
+.left.column .column-contents .other-options .login-with-twitter {
+    background: #00ACEE;
 }
