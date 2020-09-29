@@ -52,7 +52,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .left.column .column-contents .instructions {
@@ -71,17 +71,15 @@ body {
     margin-bottom: 40px;
 }
 
-a {
-    color: #3590EB;
-}
 
 .left.column .column-contents input {
-    padding: 10px 20px;
+    padding: 15px 20px;
     width: 100%;
     font-family: inherit;
     border: 1px solid #C6C6C6;
     margin-bottom: 20px;
     outline: none;
+    font-size: 18px;
 }
 .left.column .column-contents .show-password {
     margin-left: -30px;
@@ -92,6 +90,8 @@ a {
 
 .left.column .column-contents .other-options  {
     width: 100%;
+    color: rgba(0,0,0,0.41);
+    font-size: 18px;
 }
 
 .left.column .column-contents .other-options .buttons  {
@@ -119,4 +119,10 @@ a {
 
 .left.column .column-contents .terms-and-conditions {
     margin-top: 20px;
+    color: rgba(0,0,0,0.41);
+    font-size: 18px;
+}
+
+a {
+    color: #3590EB;
 }
