@@ -19,6 +19,7 @@ body {
 
 .left {
     width: 35%;
+    height: 100vh;
 }
 
 .right {
@@ -34,17 +35,23 @@ body {
     clear: both;
 }
 
+.left.column {
+    position: relative;
+}
+
 .left.column .column-contents {
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left.column .column-contents .logo-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .left.column .column-contents .instructions {
@@ -59,6 +66,8 @@ body {
 
 .left.column .column-contents .instructions.secondary {
     font-size: 18px;
+    margin-top: 10px;;
+    margin-bottom: 40px;
 }
 
 a {
@@ -69,20 +78,24 @@ a {
     padding: 10px 20px;
     width: 100%;
     font-family: inherit;
+    border: 1px solid #C6C6C6;
+    margin-bottom: 20px;
+    outline: none;
 }
 .left.column .column-contents .other-options  {
     width: 100%;
 }
 
 .left.column .column-contents .other-options .buttons  {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .left.column .column-contents .other-options .buttons button {
     padding: 10px 20px;
     width: 30%;
     border: 1px solid #C6C6C6;
     outline: none;
-    margin-right: 4%;
+    margin-right: 5%;
+    cursor: pointer;
 }
 
 .left.column .column-contents .other-options .buttons button:last-child {
@@ -94,4 +107,8 @@ a {
 
 .left.column .column-contents .other-options .login-with-twitter {
     background: #00ACEE;
+}
+
+.left.column .column-contents .terms-and-conditions {
+    margin-top: 20px;
 }
