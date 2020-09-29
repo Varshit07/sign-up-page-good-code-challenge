@@ -17,6 +17,10 @@ body {
     float: left;
 }
 
+.left.column {
+    position: relative;
+}
+
 .left {
     width: 35%;
     height: 100vh;
@@ -35,9 +39,6 @@ body {
     clear: both;
 }
 
-.left.column {
-    position: relative;
-}
 
 .left.column .column-contents {
     width: 70%;
